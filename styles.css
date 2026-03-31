@@ -503,6 +503,9 @@ img {
 .about-img {
     border-radius: 20px;
     width: 100%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    object-position: top center;
     box-shadow: 0 20px 50px rgba(0,0,0,0.5);
 }
 
